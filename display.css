@@ -1,0 +1,28 @@
+html {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font: comic sans ms;
+}
+
+input[type="text"] {
+    background-color: lightgray;
+}
+
+#submitButton{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    background-color: lightgreen;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+    padding: 4px 8px; /* Optional: adds space around text */
+    margin-bottom: 10px; /* Adds space between input fields */
+}
