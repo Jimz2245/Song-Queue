@@ -8,7 +8,7 @@ const addSong = (event) => {
     const add = document.createElement("p");
     add.textContent = Name + "-" + Song + " by " + Artist; //puts the textContext (name, song, artist) into add
 
-    const list = document.querySelector(".songList");
+    const list = document.querySelector("#songList");
 
     list.appendChild(add);
 }
