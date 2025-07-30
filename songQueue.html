@@ -23,14 +23,22 @@
                     </form>
 
                     <br>
-                    
-                    <button id = "submitButton" onclick="addSong(event)">Submit</button>
-                    <button id = "nextSongButton" onclick="nextSong(event)">Next Song</button>
+                    <div class = "buttons">
+                        <button id = "submitButton" onclick="addSong(event)">Submit</button>
+                        <button id = "nextSongButton" onclick="nextSong(event)">Next Song</button>
+                        <button id = "clearSongsButton" onclick="clearSongs(event)">Clear Songs</button>
+                    </div>
                 </div>
             </div>
                 <div class = "songList">
-                    <h3>Requested Songs</h3>
+                    <h2>Requested Songs</h2>
                     <ul id="songList">
+                        <!-- Song items will be dynamically added here -->
+                    </ul>
+                </div>   
+                <div class = "CurrentSong">
+                    <h2>Current Song</h2>
+                    <ul id="songNow">
                         <!-- Song items will be dynamically added here -->
                     </ul>
                 </div>   
