@@ -12,3 +12,18 @@ const addSong = (event) => {
 
     list.appendChild(add);
 }
+
+const nextSong = (event) => {
+    event.preventDefault();
+
+    const list = document.querySelector("#songList");
+    if (list.firstChild) 
+    {
+        list.removeChild(list.firstChild);
+    } 
+    else 
+    {
+        alert("No more songs in the queue.");
+    }
+}
+

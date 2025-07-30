@@ -10,12 +10,6 @@
         <div class = "songRequest">
             <h2>Song Request</h2>
             <div class = "songRequest-Container">
-                <div class = "songList">
-                    <h3>Requested Songs</h3>
-                    <ul id="songList">
-                        <!-- Song items will be dynamically added here -->
-                    </ul>
-                </div>
                 <div class = "form">
                     <form id = "songRequestForm" title="Song Request Form">
                         <label for="Name">Name:</label>
@@ -31,8 +25,15 @@
                     <br>
                     
                     <button id = "submitButton" onclick="addSong(event)">Submit</button>
+                    <button id = "nextSongButton" onclick="nextSong(event)">Next Song</button>
                 </div>
             </div>
+                <div class = "songList">
+                    <h3>Requested Songs</h3>
+                    <ul id="songList">
+                        <!-- Song items will be dynamically added here -->
+                    </ul>
+                </div>   
         </div>
 
         <script src="functions.js"></script>
